@@ -33,6 +33,7 @@ class Usuario {
         });
     }
 
+    //** RETORNA LOS NOMBRES DE LOS LIBROS
     getBookNames() {
         return this.libros.map(({ titulo }) => titulo);
     }
@@ -47,7 +48,6 @@ const nuevoUsuario = new Usuario(
     ["perros", "gatos"]
 );
 
-
 //** AGREGA UNA NUEVA MASCOTA
 nuevoUsuario.addMascotas("tortugas");
 nuevoUsuario.addMascotas("caballos");
@@ -61,7 +61,8 @@ console.log(nuevoUsuario.getFullName());
 //** CUENTA CUANTAS MASCOTAS HAY
 console.log(nuevoUsuario.countMascotas());
 
+//** RETORNA LOS NOMBRES DE LOS LIBROS
+console.log(nuevoUsuario.getBookNames());
+
 //** MUESTRA AL USUARIO FINAL
 console.log(nuevoUsuario);
-
-console.log(nuevoUsuario.getBookNames());
