@@ -66,3 +66,8 @@ console.log(nuevoUsuario.getBookNames());
 
 //** MUESTRA AL USUARIO FINAL
 console.log(nuevoUsuario);
+
+
+const hola = (texto) => console.log(texto);
+
+hola(joao)

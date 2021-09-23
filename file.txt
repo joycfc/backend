@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "morron",
+    "precio": "500",
+    "id": 1
+  },
+  {
+    "nombre": "morron",
+    "precio": "500",
+    "id": 2
+  },
+  {
+    "nombre": "cebollas",
+    "precio": "500",
+    "id": 3
+  },
+  {
+    "nombre": "cebollas",
+    "precio": "500",
+    "id": 4
+  },
+  {
+    "nombre": "tomates",
+    "precio": "300",
+    "id": 5
+  },
+  {
+    "id": 6,
+    "nombre": "papas",
+    "precio": "100"
+  }
+]
